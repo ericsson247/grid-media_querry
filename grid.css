@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.frame{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 200px;
+}
+.frame div{
+    border: 1px solid black;
+}
+.frame1{
+    /* background-color: blue; */
+    display: grid;
+    /* grid-template-columns: 1fr; */
+}
+.frame1div{
+    background-color:blue;
+    padding-top: 30px;  
+}
+.frame1div2{
+    min-height: 120px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    grid-gap: 10px;
+}
+.div1{
+    width: 20%;
+    margin: auto;
+    padding: 30px;
+    background-color: gray;
+}
+.div2{
+    width: 70%;
+    margin: auto;
+    padding: 15px;
+    background-color: gray;
+}
+.frame2{
+    background-color: green;
+}
+.frame3{
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    padding: 1em;
+    grid-gap: 20px;
+}
+.frame3div{
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    background-color: gray;
+}
+.frame3box{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    min-height: 50px;
+    background-color: gray;
+}
+.frame4{
+    background-color: purple;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 2em 8em ;
+}
+.minibox{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+.mini{
+    background-color: gray;
+    margin-top: 20px;
+}
+.mini2{
+    /* min-height: 50px; */
+    background-color: gray;
+    grid-auto-rows: 50px;
+}
+.frame5div{
+    border: 1px solid black;
+    min-height: 30px;
+    width:30%;
+    margin: 30px auto;
+    background-color: gray;
+}
+.framediv5{
+    border: 1px solid black;
+    min-height: 80px;
+    width:70%;
+    margin: auto;
+    background-color: gray;
+}
+}
+.frame6{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 80%, 20%;
+    grid-template-areas: 
+    "section1 section2"
+    "footer footer";
+}
+.box1:nth-of-type(1){
+    grid-area: section;
+    background-color:gray ;
+}
+.box2:nth-of-type(2){
+    grid-area: footer;
+    background-color: green;
+}
