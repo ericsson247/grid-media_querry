@@ -3,8 +3,7 @@ This project is developed to sharpen my skills on the use of grid and media quer
 # Author
 * Eric Yohanna Mshelmbula
 # Live Demo
-[See project live here] https://raw.githack.com/ericsson247/responsive_website/main/responsive-START.html
-
+[See project live here] https://raw.githack.com/ericsson247/grid-media_querry/main/grid.html
 # Functionalities
 It is a one page website consisting different sections.
 # Prototype of the website 
